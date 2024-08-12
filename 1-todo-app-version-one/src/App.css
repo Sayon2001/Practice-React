@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.todo-container{
+    margin: auto;
+    margin-top: 80px;
+    background-color: lightblue;
+    height: 70vh;
+    width: 50vw;
+    border-radius: 30px;
+}
+.heading {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+input {
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.container {
+    text-align: left;
+}
+
+.my-row {
+    margin: 20px 10px;
+}
+
+.my-button {
+    width: 100%;
+}
+
+.inner-container {
+    width: 100%;
+    margin-left: 50px;
+}

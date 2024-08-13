@@ -1,0 +1,10 @@
+body{
+  background-color: rgb(209, 183, 133);
+}
+
+.food-heading {
+  color: red;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 5px 10px;
+}

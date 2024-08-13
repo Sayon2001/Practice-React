@@ -1,15 +1,16 @@
+import styles from './AddTodo.module.css'
 function AddTodo() {
     return (
-        <div class="container text-center">
-            <div class="row my-row">
-                <div class="col-4">
+        <div className="container text-center">
+            <div className="row my-row">
+                <div className="col-4">
                     <input type="text" name="" id="" placeholder='Enter Todo Task Here.' />
                 </div>
-                <div class="col-4">
+                <div className="col-4">
                     <input type="date" name="" id="" />
                 </div>
-                <div class="col-2">
-                    <button type="button" class="btn btn-success my-button">Add</button>
+                <div className="col-2">
+                    <button type="button" className="btn btn-success my-button">Add</button>
                 </div>
             </div>
         </div>

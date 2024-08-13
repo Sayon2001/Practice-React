@@ -1,0 +1,16 @@
+.container {
+    text-align: left;
+}
+
+.my-row {
+    margin: 20px 10px;
+}
+
+.my-button {
+    width: 100%;
+}
+
+.inner-container {
+    width: 100%;
+    margin-left: 50px;
+}

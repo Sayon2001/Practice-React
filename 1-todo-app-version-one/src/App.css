@@ -11,12 +11,6 @@
     width: 50vw;
     border-radius: 30px;
 }
-.heading {
-    font-size: 60px;
-    font-weight: 700;
-    padding: 40px 30px;
-    text-align: center;
-}
 
 input {
     background-color: lightblue;
@@ -27,6 +21,7 @@ input {
 
 .container {
     text-align: left;
+    font-weight: 700;
 }
 
 .my-row {

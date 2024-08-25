@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css'
 import FoodItems from "./components/FoodItems"
+import FoodInput from "./components/FoodInput"
 import ErrorMessage from "./components/ErrorMessage"
 import Container from "./components/Container"
 
@@ -13,13 +14,14 @@ function App() {
       <Container>
         <div className="list-food">
           <h1 className="food-heading">Healthy Food</h1>
+          <FoodInput></FoodInput>
           <ErrorMessage items={foodItems} />
           <FoodItems items={foodItems} />
         </div>
       </Container>
-      <Container>
+      {/* <Container>
         <p>Above is the list of healthy foods that are good for your health and well being.</p>
-      </Container>
+      </Container> */}
     </>
   )
 }

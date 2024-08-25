@@ -1,6 +1,10 @@
 .my-list-item {
-    background-color: orange;
-    color: red;
-    border: 1px solid red;
-    font-weight: bold;
-  }
+  background-color: orange;
+  color: red;
+  border: 1px solid red;
+  font-weight: bold;
+}
+
+.button {
+  float: right;
+}

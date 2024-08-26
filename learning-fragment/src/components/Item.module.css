@@ -8,3 +8,7 @@
 .button {
   float: right;
 }
+
+.my-list-item[onClick] {
+  background-color: blue;
+}

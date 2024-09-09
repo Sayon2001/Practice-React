@@ -1,4 +1,4 @@
-export default function TodoItem({ todoName, todoDate }) {
+export default function TodoItem({ todoName, todoDate, onDeleteCLick }) {
     return (
         <div className="container">
             <div className="row my-row">
@@ -9,7 +9,7 @@ export default function TodoItem({ todoName, todoDate }) {
                     {todoDate}
                 </div>
                 <div className="col-2">
-                    <button type="button" className="btn btn-danger my-button">Delete</button>
+                    <button type="button" className="btn btn-danger my-button" onClick={() => onDeleteCLick(todoName)}>Delete</button>
                 </div>
             </div>
         </div>
